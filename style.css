@@ -1,0 +1,65 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap");
+
+
+:root{
+    /*--Color--*/
+    --Primary-Text-color:#000;
+    --Secondary-text-color:#666976;
+--third-text-color:white;
+--btn-color:#F4801A;
+--bg-color:#fde1ce;
+    /*--text--*/
+    --Primary-text:sans-serif;
+
+}
+.navbar{
+    width: 100%;
+    height: 100px;
+    color:var(--Primary-Text-color);
+    font-family:var(--Primary-text)  ;
+   
+}
+.navbar-nav{
+    margin-left: 30px;
+}
+
+
+.nav-link{
+    margin-left: 50px;
+}
+.pre{
+    color: var(--Secondary-text-color);
+    font-size: 25px;
+    margin-top: 20px;
+    margin: 20px 5px 15px 20px;
+}
+h1.h1{
+    font-size: 60px;
+    margin: 20px 5px 15px 20px;
+}
+button.btn{
+    background-color: #F4801A;
+    border-radius: 30px;
+    border: none;
+    padding:20px 30px;
+    color: white;
+    margin-top: 20px;
+    }
+
+.container-fluid.part1{
+    background-color: #F4801A;
+    color:var(--third-text-color);
+    width:100%;
+    height: 150px;
+    text-align: center;
+    justify-content: center;
+    margin-top: 20px;
+   }
+div.col{
+    margin-top: 30px;
+   }
+.paragraph2.pre1{
+    color: var(--Secondary-text-color);
+    font-size: 25px;
+    margin-top: 20px;
+}
