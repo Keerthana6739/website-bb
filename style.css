@@ -18,10 +18,12 @@
     height: 100px;
     color:var(--Primary-Text-color);
     font-family:var(--Primary-text)  ;
+    padding-left: 45px;
+   
    
 }
 .navbar-nav{
-    margin-left: 30px;
+    margin-left: 70px;
 }
 
 
@@ -29,9 +31,19 @@
     margin-left: 50px;
 }
 
-
+.nav-link:hover{
+    color:#F4801A;
+    
+    }
+   
 /*--welcome--*/
-
+.page1{
+    background-image: url(images/background.png);
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-size: 120px;
+   
+}
 .pre{
     color: var(--Secondary-text-color);
     font-size: 25px;
@@ -39,7 +51,7 @@
     margin: 20px 5px 15px 20px;
 }
 h1.h1{
-    font-size: 60px;
+    font-size: 55px;
     margin: 20px 5px 15px 20px;
 }
 button.btn{
@@ -52,22 +64,27 @@ button.btn{
     }
 
 .container-fluid.part1{
-    background-color: #F4801A;
-    color:var(--third-text-color);
-    width:100%;
-    height: 150px;
+    background-image: url(images/orange-building.png);
+    background-repeat: no-repeat;
+    background-size: 100% 110px;
     text-align: center;
-    justify-content: center;
-    margin-top: 20px;
+    color:var(--third-text-color);
+   margin-top: 20px;
    }
 div.col{
-    margin-top: 30px;
+    margin-top: 10px;
+   
    }
 
 
 /*--About page--*/
+.about{
+    margin-top: 150px;
+}
 
-
+.aboutimg{
+    margin-left: 30px;
+}
 .pre1{
     margin-top: 20px;
     color: var(--Secondary-text-color);
@@ -75,8 +92,23 @@ div.col{
     margin-bottom: 50px;
     margin-left: 20px;
 }
+.part2{
+    background-image: url(images/About-Draw-kits.png);
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-size: 100%;
+}
 
 /*--Why choose us--*/
+.part3{
+    margin-top: 100px;
+}
+.part3-1{
+    background-image: url(images/Why-choose-us\(Draw-Kits\).png);
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-size: 20px;
+}
 .row.icon{
     margin-left: 15px;
     margin-top: 20px;
@@ -93,10 +125,11 @@ div.col{
 }
 
 /*--Our software--*/
+.part4{
+    margin-top: 100px;
+    background-color: rgb(228, 247, 250);
 
-.row-equal > div[class*='col-'] {
-    display: flex;
-    flex: 1 0 auto;
+
 }
 
 .row-equal .card {
@@ -133,6 +166,7 @@ div.col{
 .servicecard{
     margin: 30px 0px 10px 40px;
     padding: 20px;
+    height: 335px;
 }
 
 .servicecard:hover{
@@ -146,6 +180,10 @@ div.col{
 }
 
 /*--Bharath brants--*/
+.bcol{
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
 .bcard{
     text-align: center;
     justify-content: center;
@@ -195,4 +233,24 @@ div.col{
     width: 50%;
    
     
+}
+
+/*--Request quote--*/
+.ip{
+float: left;
+
+}
+
+
+/*--contact us--*/
+
+.section{
+    margin: 10px;
+    margin-top: 30px;
+    float: left;
+    margin-left: 90px;
+    
+}
+.icon{
+    margin:5px;
 }
