@@ -17,46 +17,39 @@
 .body{
     font-family: var(--Primary-text);
 }
-/*--nav--*/
-.navbar{
-    width: 100%;
-    height: 100px;
-    color:var(--Primary-Text-color);
-    font-family:var(--Primary-text)  ;
-    font-size: 20px;
-    padding-left: 45px;
-   
-   
-}
 
-.navbar-nav{
-    margin-left: 70px;
-}
-
-
-.nav-link{
-    margin-left: 50px;
-}
-
-.nav-link:hover{
-    color:#F4801A;
-    
-    }
-   
+.background {
+    background: linear-gradient(to top,#FCFFFF, #FFF9F3 );
+    min-height: 100vh;
+    padding: 20px;
+  }
+ 
+  /*Nav-bar*/
+  a.nav-link{
+    color: black !important;
+     }
+   a.nav-link.active{
+      color: black !important;
+       }
+      a.nav-link:hover{
+       color: var(--btn-color)!important;
+      }
+ 
+ 
 /*--welcome--*/
 .page1{
     background-image: url(images/background.png);
     background-repeat: no-repeat;
     background-position: right top;
     background-size: 120px;
-    margin-top: 30px;
+  
    
 }
 .pre{
     color: var(--Secondary-text-color);
     font-size: 21px;
     font-family: var(--Primary-text);
-    margin-top: 20px;
+    
     margin: 20px 5px 15px 20px;
 }
 h1.h1{
@@ -66,7 +59,7 @@ h1.h1{
     margin: 10px 5px 10px 20px;
 }
 button.btn{
-    background-color: #F4801A;
+    background: linear-gradient(to right,#F7951E, #ED4B12);
     border-radius: 30px;
     border: none;
     padding:20px 30px;
@@ -80,15 +73,20 @@ button.btn{
     background-size: 100% 110px;
     text-align: center;
     color:var(--third-text-color);
-   margin-top: 20px;
+  
    font-family: var(--Primary-text);
    }
-div.col{
-    margin-top: 10px;
-
-   
+   .part1 {
+    padding: 5px 0; /* Add padding to the section */
    }
-
+  .part1 .row {
+    display: flex;
+    justify-content: center; /* Center horizontally */
+  }
+  .part1 .col {
+    text-align: center; /* Center text within each column */
+    margin: 20px 0; /* Add margin to each column for spacing */
+  }
 
 /*--About page--*/
 .top-head{
@@ -126,6 +124,24 @@ div.col{
     background-position: right top;
     background-size: 100%;
 }
+.iconsec {
+    border: 2px solid transparent !important; 
+    background: linear-gradient(to left, #FCFFFF, #FFF9F3);
+    padding: 10px;
+}
+
+.iconsec::before {
+    content: '';
+    position: absolute;
+    top: -2px; 
+    left: -2px;
+    right: -2px;
+    bottom: -2px;
+    z-index: -1;
+    border: 2px solid;
+    border-image: linear-gradient(to right, #f06925, #FFF9F3) 1; 
+    border-radius: 5px; 
+}
 
 /*--Why choose us--*/
 .part3{
@@ -158,31 +174,29 @@ div.col{
 
 /*--Our software--*/
 .part4{
-    margin-top: 100px;
     background-color: rgb(228, 247, 250);
-   
-
-   
-
 
 }
+.custom-container {
+    max-width: 800px;
+    margin: auto;
+}
 
-.row-equal .card {
-   width: 100%;
-   margin-bottom: 20px;
+.carousel-item .card {
+    margin-bottom: 20px; 
 }
 
 
-
-.carousel-control-prev,
+ .carousel-control-prev,
     .carousel-control-next {
       width: auto;
       height: auto;
+      
     }
 
     .carousel-control-prev-icon,
     .carousel-control-next-icon {
-      background-color: rgba(0, 0, 0, 0.5); /* Black with some transparency */
+      background-color: rgba(0, 0, 0, 0.5); 
       border-radius: 50%;
       width: 50px;
       height: 50px;
@@ -203,12 +217,17 @@ div.col{
     .carousel-item {
       position: relative;
     }
+/*Marquee*/
+
+.marquee img {
+    margin: 10px;}
 
 /* our service*/
 .servicecard{
     margin: 30px 0px 10px 40px;
     padding: 20px;
     height: 350px;
+    margin-bottom: 20px;
 }
 
 .servicecard:hover{
@@ -229,22 +248,32 @@ div.col{
 .servicepre:hover{
     color:white ;
 }
-/*--Bharath brants--*/
-.bcol{
-    margin-top: 80px;
-    margin-bottom: 80px;
-}
-.bcard{
-    text-align: center;
+/*--Bharathbrands--*/
+/* Center the carousel items */
+.carousel-inner .carousel-item {
+    display: flex;
     justify-content: center;
+    align-items: center;
+}
+
+/* Adjust the width of carousel control buttons */
+.carousel-control-prev, .carousel-control-next {
+    width: 5%;
+}
+
+/* Style for the card content */
+.bcard {
     font-size: 20px;
     color: var(--Secondary-text-color);
+    transition: background-color 0.3s, color 0.3s; /* Add transition for smooth hover effect */
 }
-.bcard:hover{
 
+/* Hover effect for the card */
+.bcard:hover {
     background-color: #F4801A;
     color: white;
 }
+
 
 /*--software solutions--*/
 .center{
@@ -280,27 +309,75 @@ div.col{
     color: #666976;
     padding-left: 50px !important; 
     padding-top: 130px;
-    width: 50%;
-   
     
 }
+.custom-container {
+  
+    padding-top: 20px; 
+    background-color: white;
+
+ 
+}
+
+.testimonial-section {
+    background-color: rgb(208, 238, 238);
+    margin-top: 50px;
+    
+}
+
 
 /*--Request quote--*/
 .ip{
 float: left;
+font-size: 20px;
 
 }
+.form-label{
+font-size: 20px;
+color: #666976
+}
+
+
 
 
 /*--contact us--*/
 
 .section{
-    margin: 10px;
+   
     margin-top: 30px;
     float: left;
-    margin-left: 90px;
+    margin-left: 50px;
+    font-size: 21px;
+    color: #666976;
     
 }
-.icon{
-    margin:5px;
+.iconc{
+color: #000;
 }
+.icon{
+    margin:15px;
+   
+}
+.spre{
+    margin-top: 80px;
+    color: #000;
+    font-weight: 500;
+}
+.H5{
+    position: relative;
+    color: #000;
+     display: inline-block; 
+     padding-bottom: 10px; 
+     border-bottom: 2px solid #F4801A;
+}
+
+button.btnl{
+    background: linear-gradient(to right, #ED4B12,#F7951E);
+    border-radius: 10px;
+    border: none;
+    padding:15px 50px;
+    color: white;
+    margin-top: 20px;
+    font-size: 20px;
+    margin-left: 0px;
+    }
