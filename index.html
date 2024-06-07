@@ -9,10 +9,10 @@
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href="style.css" rel="stylesheet">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-evstqn3/azprg1anm3qdgpjlim9nao0yz1ztcqtwfspd3yd65vohhpuucomlasjc" crossorigin="anonymous"> 
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
     <title>website</title>
 
    
@@ -26,7 +26,7 @@
 
    
 <div class="background">
- <nav class="navbar navbar-expand-xl navbar-dark">
+ <nav class="navbar navbar-expand-xl navbar-dark ">
   <div class="container-fluid" type="button" style="color:black; ">
 
     <a class="navbar-brand" href="#"> <img src="images/logo.png" width="150" height="100" style="margin-left: 40px;"></a>
@@ -35,21 +35,21 @@
       <span class="navbar-toggler-icon" type="button" ></span>
     </button>
     <div class="collapse navbar-collapse show" type="button" style="color:black;" id="navbarDark">
-      <ul class="navbar-nav ms-auto mb-2 mb-xl-0 fs-5 ms-auto p-2 text-center" style="margin-right: 50px;">
+      <ul class="navbar-nav ml-auto  " style="margin-right: 50px; font-size: 51;">
         <li class="nav-item me-3 ">
-          <a class="nav-link active" aria-current="page" href="#" >Home</a>
+          <a class="nav-link active" aria-current="page" href="index.html" >Home</a>
         </li>
         <li class="nav-item me-3">
           <a class="nav-link"    href="about.html">About us</a>
         </li>
         <li class="nav-item me-3">
-          <a class="nav-link" href="#" >Products</a>
+          <a class="nav-link" href="products.html" >Products</a>
         </li>
         <li class="nav-item me-3">
           <a class="nav-link" href="#" >Services</a>
         </li>
         <li class="nav-item me-3">
-          <a class="nav-link" href="#" >Contact us</a>
+          <a class="nav-link" href="contact.html" >Contact us</a>
         </li>
 
       </ul>
@@ -116,7 +116,7 @@
  <section class="about">
     <div class="row" style="width: 100%;">
         <div class="col-md-6 aboutimg">
-            <img src="images/About-Image.png" width="100%" height="600" >
+            <img src="images/home/about.png" width="100%" height="600" >
         </div>
         <div class="col-md-5 part2">
         <h4 class="paragraph-2 top-head fw-light" >About Us</h4>
@@ -148,7 +148,7 @@
 <!--Why choose us-->
     <div class="container-fluid part3">
     <div class="col-md-12  ">
-      <div class="row" style="width: 100%; margin-bottom: 20px;">
+      <div class="row" style="width: 100%; margin-bottom: 100px;">
       <div class="col-md-8 part3-1">
         <h3 class="paragraph-2 fw-lighter" style="margin-top: 20px; margin-left: 30px; font-family: var(--Primary-text);
         font-size: 32px;
@@ -158,187 +158,235 @@
         <h1  class="paragraph-2" style="margin-top: 20px; margin-left: 30px;font-family: var(--Primary-text);
         font-size: 37px;">We Are Here To Grow Your Business Exponentially</h1>
         <div class="row" style="width: 100%;">
-        <div class="col-md-4" style="width: 50%;">
+        <div class="col-md-6" style="width: 40%;">
+         
           <div class="container" style="margin-top: 50px;">
-            <h4 class="paragraph-2"><i class="fa fa-diamond" style="color: palevioletred;margin-right: 8px;"></i>Agile Methodes </h4>
-           <a  href="Read more"  class="read"  data-toggle="collapse" data-target="#demo">Read More<i class="fa fa-long-arrow-right" style="margin-left: 3px;"></i></a>
+            <div class="row">
+              <div class="col-md-1">
+            <img src="images/home/icon1.png " alt="Icon" class="img-fluid" style="max-width: 60px;"> 
+          </div>
+          <div class="col-md-8">
+            <h4 class="paragraph-2 " style="margin-left:48px ;">Agile Methodes </h4>
+            <a  href="Read more"  class="read"  data-toggle="collapse" data-target="#demo">Read More<i class="fa fa-long-arrow-right" style="margin-left: 3px;"></i></a>
+          </div>
+        </div>
             <div id="demo" class="collapse paragraph-2 div">
               We embrace agility in development, allowing us to adapt, iterate, and deliver solutions quickly without compromising quality.
+          
             </div>
           </div>
 
           <div class="container" style="margin-top: 50px;">
-            <h4 class="paragraph-2"><i class="fa fa-flag" style="color: green;margin-right: 8px;"></i>Innovative  Approach</h4>
+            <div class="row">
+              <div class="col-md-1">
+                <img src="images/home/icon3.png " alt="Icon" class="img-fluid" style="max-width: 60px;"> 
+              </div>
+              <div class="col-md-8">
+            <h4 class="paragraph-2" style="margin-left:48px ;">  Innovative  Approach</h4>
            <a  href="Read more"  class="read"  data-toggle="collapse" data-target="#demo1">Read More<i class="fa fa-long-arrow-right" style="margin-left: 3px;"></i></a>
             <div id="demo1" class="collapse paragraph-2 div">
               We leverage the latest technologies and adopt forward-thinking mindset to create software that exceeds expectations.
+           </div>
+          </div>
             </div>
           </div>
 
           <div class="container" style="margin-top: 50px;">
-            <h4 class="paragraph-2"><i class="fa fa-smile-o" style="color:darkmagenta ;margin-right: 8px;"></i>Customization& Scalability </h4>
+            <div class="row">
+              <div class="col-md-1">
+                <img src="images/home/icon5.png " alt="Icon" class="img-fluid" style="max-width: 60px;">
+              </div>
+              <div class="col-md-8">
+            <h4 class="paragraph-2" style="margin-left:48px ;">  Customization& Scalability </h4>
            <a  href="Read more"   class="read" data-toggle="collapse" data-target="#demo2">Read More<i class="fa fa-long-arrow-right" style="margin-left: 3px;"></i></a>
             <div id="demo2" class="collapse paragraph-2 div">
               Our solutions are tailor-made to meet specific client needs and are designed for scalability to accommodate growth and evolving requirements.
             </div>
           </div>
+          </div>
+        </div>
 
           <div class="container" style="margin-top: 50px;">
-            <h4 class="paragraph-2"><i class="fa fa-users" style="color: rgb(255, 208, 0);margin-right: 8px;"></i>Experts Team</h4>
+            <div class="row">
+              <div class="col-md-1">
+           <img src="images/home/icon7.png " alt="Icon" class="img-fluid" style="max-width: 60px;">
+              </div>
+              <div class="col-md-8">
+            <h4 class="paragraph-2" style="margin-left:48px ;"> Experts Team</h4>
            <a  href="Read more"  class="read" data-toggle="collapse" data-target="#demo3">Read More<i class="fa fa-long-arrow-right" style="margin-left: 3px;"></i></a>
             <div id="demo3" class="collapse paragraph-2 div">
               We have a team of highly skilled and experienced professionals dedicated to staying ahead of industry trends and delivering excellence in every project.
             </div>
           </div>
-      
+          </div>
+      </div>
         </div>
-        <div class="col-md-4" style="width: 50%;" >
+
+        <div class="col-md-6" style="width: 40%;" >
           <div class="container" style="margin-top: 50px;margin-right: 8px;">
-            <h4 class="paragraph-2"><i class="fa fa-bookmark" style="color: rgb(209, 27, 170);margin-right: 8px;"></i>User-Centric solutions</h4>
+            <div class="row">
+              <div class="col-md-1">
+                <img src="images/home/icon2 (1).png " alt="Icon" class="img-fluid" style="max-width: 60px;">
+              </div>
+              <div class="col-md-8">
+            <h4 class="paragraph-2" style="margin-left:48px ;"> User-Centric solutions</h4>
            <a  href="Read more" class="read" data-toggle="collapse" data-target="#demo4">Read More<i class="fa fa-long-arrow-right" style="margin-left: 3px;"></i></a>
             <div id="demo4" class="collapse paragraph-2 div">
               Our focus is on user experience, ensuring our software is intuitive, user-friendly, and seamlessly integrates into workflows.
-
+            </div>
             </div>
           </div>
+        </div>
 
           <div class="container" style="margin-top: 50px;">
-            <h4 class="paragraph-2 "><i class="fa fa-cloud" style="color: rgb(48, 166, 196);margin-right: 8px;" ></i>Cloud Native & Hybrid Solutions </h4>
+            <div class="row">
+              <div class="col-md-1">
+                <img src="images/home/icon4.png " alt="Icon" class="img-fluid" style="max-width: 60px;"> 
+              </div>
+             <div class="col-md-8">
+            <h4 class="paragraph-2 " style="margin-left:48px ;">Cloud Native & Hybrid Solutions </h4>
            <a  href="Read more"  class="read" data-toggle="collapse" data-target="#demo5">Read More <i class="fa fa-long-arrow-right" style="margin-left: 3px;"></i></a>
             <div id="demo5" class="collapse paragraph-2 div">
               Innovating in hybrid cloud solutions that seamlessly integrate on-premises and cloud infrastructure for optimal performance.
             </div>
           </div>
+        </div>
+      </div>
 
           <div class="container" style="margin-top: 50px;">
-            <h4 class="paragraph-2" style="margin-left: 5px;"><i class="fa fa-gear" style="color: red;margin-right: 8px;"></i>AI & Machine Learning Integration </h4>
+            <div class="row">
+              <div class="col-md-1">
+                <img src="images/home/icon6.png " alt="Icon" class="img-fluid" style="max-width: 60px;">
+              </div>
+              <div class="col-md-6">
+            <h4 class="paragraph-2" style="margin-left: 48px;"> AI & Machine Learning Integration </h4>
            <a  href="Read more"  class="read"  data-toggle="collapse" data-target="#demo6">Read More<i class="fa fa-long-arrow-right" style="margin-left: 3px;"></i></a>
             <div id="demo6" class="collapse paragraph-2 div">
               Developing AI-driven applications for natural language processing, image recognition, and predictive maintenance, among others.
             </div>
           </div>
+        </div>
+      </div>
 
         </div>
       </div>
     </div>
       <div class="col-md-4">
-      <img src="images/Why-choose-us-image.png" width="100%" height="600">
+      <img src="images/home/whychoose.png" width="100%" height="600">
       </div>
     </div>
     </div>
   </div>
 
     <!--Our software-->
-    
-    <section class="container-fluid p-t-3 part4" >
-      <div class="row" >
-        <div class="col-lg-12"> 
-          <h4 class="paragraph-2" style="margin: 20px 0px 20px 20px; font-family: var(--Primary-text); font-size: 32px; font-weight: lighter;">Our Software Platforms</h4>
-          <h1 class="paragraph-2" style="margin: 20px 0px 0px 20px; font-family: var(--Primary-text); font-size: 37px;">We Are Here To Grow Your Business Exponentially</h1>
+   <section class="container-fluid p-t-3 part4">
+    <div class="row">
+        <div class="col-lg-12">
+            <h4 class="paragraph-2" style="margin: 20px 0px 20px 20px; font-family: var(--Primary-text); font-size: 32px; font-weight: lighter;">Our Software Platforms</h4>
+            <h1 class="paragraph-2" style="margin: 20px 0px 0px 20px; font-family: var(--Primary-text); font-size: 37px;">We Are Here To Grow Your Business Exponentially</h1>
         </div>
-      </div>
-  
-      <div id="postsCarousel" class="carousel slide" data-ride="carousel" style="margin: 20px 10px 20px 10px;">
-        <div class="container-fluid p-t-0 m-t-2 carousel-inner">
-          <div class="carousel-item active">
-            <div class="row">
-              <div class="col-md-4">
-                <div class="card paragraph-2">
-                  <div class="card-img-top card-img-top-350">
-                    <img class="img-fluid" src="images/api.jpg" width="100%" alt="Carousel 1">
-                  </div>
-                  <div class="card-block p-t-2">
-                    <div class="card-text" style="margin: 20px; height: 150px;">
-                      <h3>COMNILE</h3>
-                      COMNILE is a cutting-edge integration platform designed to streamline and enhance organizational processes through seamless API and Microservices connectivity.
+    </div>
+
+    <div id="postsCarousel" class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="card paragraph-2">
+                            <div class="card-img-top">
+                                <img class="img-fluid" src="images/api.jpg" width="100%" alt="Carousel 1">
+                            </div>
+                            <div class="card-body">
+                                <div class="card-text" style="margin: 20px; height: 150px;">
+                                    <h3>COMNILE</h3>
+                                    COMNILE is a cutting-edge integration platform designed to streamline and enhance organizational processes through seamless API and Microservices connectivity.
+                                </div>
+                            </div>
+                        </div>
                     </div>
-                  </div>
-                </div>
-              </div>
-              <div class="col-md-4">
-                <div class="card paragraph-2">
-                  <div class="card-img-top card-img-top-250">
-                    <img class="img-fluid" src="images/ai2.jpg" width="100%" alt="Carousel 2">
-                  </div>
-                  <div class="card-block p-t-2">
-                    <div class="card-text" style="margin: 20px; height: 150px;">
-                      <h3>PESANILE</h3>
-                      PESANILE stands out as a multifaceted accounting software, uniquely configurable to serve diverse financial needs.
+                    <div class="col-md-4">
+                        <div class="card paragraph-2">
+                            <div class="card-img-top">
+                                <img class="img-fluid" src="images/ai2.jpg" width="100%" alt="Carousel 2">
+                            </div>
+                            <div class="card-body">
+                                <div class="card-text" style="margin: 20px; height: 150px;">
+                                    <h3>PESANILE</h3>
+                                    PESANILE stands out as a multifaceted accounting software, uniquely configurable to serve diverse financial needs.
+                                </div>
+                            </div>
+                        </div>
                     </div>
-                  </div>
-                </div>
-              </div>
-              <div class="col-md-4">
-                <div class="card paragraph-2">
-                  <div class="card-img-top card-img-top-250">
-                    <img class="img-fluid" src="images/ai2.jpg" width="100%" alt="Carousel 3">
-                  </div>
-                  <div class="card-block p-t-2">
-                    <div class="card-text" style="margin: 20px; height: 150px;">
-                      <h3>PROCESSNILE</h3>
-                      PROCESSNILE is a versatile business software platform equipped with robust.
+                    <div class="col-md-4">
+                        <div class="card paragraph-2">
+                            <div class="card-img-top">
+                                <img class="img-fluid" src="images/ai2.jpg" width="100%" alt="Carousel 3">
+                            </div>
+                            <div class="card-body">
+                                <div class="card-text" style="margin: 20px; height: 150px;">
+                                    <h3>PROCESSNILE</h3>
+                                    PROCESSNILE is a versatile business software platform equipped with robust capabilities.
+                                </div>
+                            </div>
+                        </div>
                     </div>
-                  </div>
                 </div>
-              </div>
             </div>
-          </div>
-          <div class="carousel-item">
-            <div class="row">
-              <div class="col-md-4">
-                <div class="card paragraph-2">
-                  <div class="card-img-top card-img-top-250">
-                    <img class="img-fluid" src="images/erp.jpg" width="100%" alt="Carousel 4">
-                  </div>
-                  <div class="card-block p-t-2">
-                    <div class="card-text" style="margin:20px; height: 150px;">
-                      <h3>SERVICENILE</h3>
-                      SERVICENILE is an advanced service automation platform, leveraging a microservices-based architecture to provide unparalleled efficiency.
+            <div class="carousel-item">
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="card paragraph-2">
+                            <div class="card-img-top">
+                                <img class="img-fluid" src="images/erp.jpg" width="100%" alt="Carousel 4">
+                            </div>
+                            <div class="card-body">
+                                <div class="card-text" style="margin: 20px; height: 150px;">
+                                    <h3>SERVICENILE</h3>
+                                    SERVICENILE is an advanced service automation platform, leveraging a microservices-based architecture to provide unparalleled efficiency.
+                                </div>
+                            </div>
+                        </div>
                     </div>
-                  </div>
-                </div>
-              </div>
-              <div class="col-md-4">
-                <div class="card paragraph-2">
-                  <div class="card-img-top card-img-top-250">
-                    <img class="img-fluid" src="images/ai2.jpg" width="100%" alt="Carousel 5">
-                  </div>
-                  <div class="card-block p-t-2">
-                    <div class="card-text" style="margin: 20px; height: 150px;">
-                      <h3>KABACHIMED</h3>
-                      KABACHIMED is a revolutionary healthcare solution, encompassing a Hospital Information Management System (HIMS)
-                      </div>
-                  </div>
-                </div>
-              </div>
-              <div class="col-md-4">
-                <div class="card paragraph-2">
-                  <div class="card-img-top card-img-top-250">
-                    <img class="img-fluid" src="images/erp.jpg" width="100%" alt="Carousel 6">
-                  </div>
-                  <div class="card-block p-t-2">
-                    <div class="card-text" style="margin:20px; height: 150px;">
-                      <h3>VYAS EduERP</h3>
-                      VYAS EduERP is a sophisticated Educational ERP software designed to revolutionize academic administration.
+                    <div class="col-md-4">
+                        <div class="card paragraph-2">
+                            <div class="card-img-top">
+                                <img class="img-fluid" src="images/ai2.jpg" width="100%" alt="Carousel 5">
+                            </div>
+                            <div class="card-body">
+                                <div class="card-text" style="margin: 20px; height: 150px;">
+                                    <h3>KABACHIMED</h3>
+                                    KABACHIMED is a revolutionary healthcare solution, encompassing a Hospital Information Management System (HIMS).
+                                </div>
+                            </div>
+                        </div>
                     </div>
-                  </div>
+                    <div class="col-md-4">
+                        <div class="card paragraph-2">
+                            <div class="card-img-top">
+                                <img class="img-fluid" src="images/erp.jpg" width="100%" alt="Carousel 6">
+                            </div>
+                            <div class="card-body">
+                                <div class="card-text" style="margin: 20px; height: 150px;">
+                                    <h3>VYAS EduERP</h3>
+                                    VYAS EduERP is a sophisticated Educational ERP software designed to revolutionize academic administration.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-              </div>
             </div>
-            
-          </div>
         </div>
-  
+
         <a class="carousel-control-prev" href="#postsCarousel" role="button" data-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="sr-only">Previous</span>
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
         </a>
         <a class="carousel-control-next" href="#postsCarousel" role="button" data-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="sr-only">Next</span>
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
         </a>
-      </div>
-    </section>
+    </div>
+</section>
   <!--marquee-->
   <div class="margin" style="margin-top: 20;">
  <marquee behavior="scroll" direction="left" style="padding-top:50px ;padding-bottom:50px ;" >
@@ -358,13 +406,13 @@
       <div class="row"style="width: 100%;">
         <div class="col-md-4" >
           <div class="card servicecard paragraph-2" >
-            <i class="fa fa-circle-o-notch " style="font-size:48px;margin: 10px;"></i>
+           <img src="images/home/oicon1.png" style="max-width:68px;margin: 10px;">
             <h3 >Custom ERP System Development</h3>
             <p class="servicepre" >Embark on a journey of enhanced efficiency and seamless operations with our custom ERP System 
               development services.</p>
           </div>
           <div class="card servicecard paragraph-2" >
-            <i class="fa fa-th-large " style="font-size:48px;margin: 10px"></i>
+           <img src="images/home/oicon2.png" style="max-width:68px;margin: 10px">
             <h3>Custom Service Delivery Platform Development</h3>
             <p class="servicepre">Revolutionize your service delivery model with our bespoke service delivery platform development services.</p>
           </div>
@@ -373,13 +421,13 @@
 
       <div class="col-md-4" >
         <div class="card servicecard paragraph-2" >
-          <i class="fa fa-retweet" style="font-size:48px;margin: 10px;"></i>
+         <img src="images/home/oicon3.png" style="max-width:68px;margin: 10px;">
           <h3>Managed IT Services & Consulting</h3>
           <p class="servicepre">Managed IT services & Consulting for Banking,Healthcare & Government Insitutions.Our expertise 
          robust cybersecurity.</p>
         </div>
         <div class="card servicecard paragraph-2">
-          <i class="fa fa-child" style="font-size:48px;margin: 10px ;" ></i>
+         <img src="images/home/oicon4.png" style="max-width:68px; margin: 10px ;" >
           <h3>Custom Integration Framework Development</h3>
           
           <p class="servicepre">Unlocked unparelled connectivity and efficiency with our custom integration frameworm development services.</p>
@@ -412,20 +460,20 @@
             <div class="carousel-item active" id="slide1">
               <div class="row">
                 <div class="col-md-6">
-                  <div class="card" style="height: 450px;">
+                  <div class="card" style="height: 500px;">
                     <div class="card-header">
-                      <center><i class="fa fa-hand-o-up" style="font-size:88px; color: #F4801A; margin-top: 50px; margin-bottom: 50px;"></i></center>
+                      <center><img src="images/home/bicon1 (2).png" style="max-width:78px;  margin-top: 50px; margin-bottom: 50px;"></i></center>
                     </div>
                     <div class="card-body bcard paragraph-2">
                       <h5 style="color: black;">Why choose BharathBrands</h5>
-                      <p>Expertise: Our team brings a wealth of expertise in IT software development, ensuring that our solutions are innovative, reliable, and scalable.</p>
+                      <p >Expertise: Our team brings a wealth of expertise in IT software development, ensuring that our solutions are innovative, reliable, and scalable.</p>
                     </div>
                   </div>
                 </div>
                 <div class="col-md-6">
-                  <div class="card" style="height: 450px;">
+                  <div class="card" style="height: 500px;">
                     <div class="card-header">
-                      <center><i class="fa fa-child" style="font-size:88px;color:#F4801A; margin-top: 50px;margin-bottom: 50px;"></i></center>
+                      <center><img src="images/home/bicon2.png" style="max-width:78px;margin-top: 50px;margin-bottom: 50px;"></i></center>
                     </div>
                     <div class="card-body bcard paragraph-2">
                       <h5 style="color: black;">Technology Using</h5>
@@ -438,9 +486,9 @@
             <div class="carousel-item " id="slide2">
               <div class="row">
                 <div class="col-md-6">
-                  <div class="card" style="height: 450px;">
+                  <div class="card" style="height: 500px;">
                     <div class="card-header">
-                      <center><i class="fa fa-cogs" style="font-size:88px;color:#F4801A; margin-top: 50px;margin-bottom: 50px;"></i></center>
+                      <center><img src="images/home/bicon3.png" style="max-width:78px; margin-top: 50px;margin-bottom: 50px;"></i></center>
                     </div>
                     <div class="card-body bcard paragraph-2">
                       <h5 style="color: black;">Partnerships</h5>
@@ -450,9 +498,9 @@
                   </div>
                 </div>
                 <div class="col-md-6">
-                  <div class="card" style="height: 450px;">
+                  <div class="card" style="height: 500px;">
                     <div class="card-header">
-                      <center><i class="fa fa-globe" style="font-size:88px;color:#F4801A; margin-top: 50px;margin-bottom: 50px;"></i></center>
+                      <center><img src="images/home/bicon4.png" style="width:78px; margin-top: 50px;margin-bottom: 50px;"></i></center>
                     </div>
                     <div class="card-body bcard paragraph-2">
                       <h5 style="color: black;">Tech Innovation</h5>
@@ -484,79 +532,77 @@
 
 <div class="center " >
 <h3 class="paragraph-2" style="font-family: var(--Primary-text);
-font-size: 32px;font-weight: lighter;">Our Software Solutions</h3>
+font-size: 32px;font-weight: 400;">Our Software Solutions</h3>
 <h2 class="paragraph-2" style="margin-bottom:30px; font-family: var(--Primary-text);
 font-size: 37px;
 ">We are Offering Competitive <br>Products for Our Clients</h2>
 </div>
 <div class="col-md-12">
   <div class="row" style="width: 100%; margin-bottom: 260px;">
-    <div class="col-md-1">
-
-    </div>
-  <div class="col-md-3" >
-    <div class="card" style="height: 900px;">
+    
+  <div class="col-md-4" >
+    <div class="card" >
 <div class="card-header paragraph-2">
-  <h4 style="color: black;"><i class="fa fa-desktop" style="font-size:30px ;margin-right: 5px;color: #F4801A;"></i>Health Care Products</h4>
+  <h4 style="color: black;"><img src="images/home/osicon1.png" style="max-width:30px ;margin-right: 10px;"></i>Health Care Products</h4>
 </div>
 <div class="card-body paragraph-2">
-  <p class="p1"><i class="fa fa-check-circle-o" style="font-size:28px;color:green;margin-right: 3px;"></i>Hospital Information Management System</p>
-         <p class="p1"><i class="fa fa-check-circle-o" style="font-size:28px;color:green;margin-right: 3px;"></i> Paperless HIMS</p>
-          <p class="p1"><i class="fa fa-check-circle-o" style="font-size:28px;color:green; margin-right: 3px;"></i>Laboratory Information</p>
-          <p class="p1"><i class="fa fa-check-circle-o" style="font-size:28px;color:green;margin-right: 3px;"></i>Pharmacy Information Management System</p>
-          <p class="p1"> <i class="fa fa-check-circle-o" style="font-size:28px;color:green;margin-right: 3px;"></i>Health Information Exchange Platform</p>
-          <p class="p1" ><i class="fa fa-check-circle-o" style="font-size:28px;color:green;margin-right: 3px;"></i>Clinical Decision Support System</p>
-          <p class="p1"><i class="fa fa-check-circle-o" style="font-size:28px;color:green;margin-right: 3px;"></i>Clinical Decision Support System</p>
-          <p class="p1"><i class="fa fa-check-circle-o" style="font-size:28px;color:green;margin-right: 3px;"></i>Practice Management System</p>
-          <p class="p1"><i class="fa fa-check-circle-o" style="font-size:28px;color:green;margin-right: 3px;"></i>Personal Health Recording Platform</p>
-          <p class="p1"><i class="fa fa-check-circle-o" style="font-size:28px;color:green;margin-right: 3px;"></i>Electronic Medical Health Recording Platform</p>
-          <p class="p1"><i class="fa fa-check-circle-o" style="font-size:28px;color:green;margin-right: 3px;"></i> Queue Management System</p>
-          <p class="p1"><i class="fa fa-check-circle-o" style="font-size:28px;color:green;margin-right: 3px;"></i>Online Appointment Booking System</p>
-          <p class="p1"><i class="fa fa-check-circle-o" style="font-size:28px;color:green;margin-right: 3px;"></i>In Patient Monitoring & CommunicationSystem</p>
+  <p class="p1"><img src="images/home/tick.png" style="max-width:20px; margin-right: 3px;">Hospital Information Management System</p>
+         <p class="p1"><img src="images/home/tick.png" style="max-width:20px; margin-right: 3px;"> Paperless HIMS</p>
+          <p class="p1"><img src="images/home/tick.png" style="max-width:20px; margin-right: 3px;">Laboratory Information</p>
+          <p class="p1"><img src="images/home/tick.png" style="max-width:20px; margin-right: 3px;">Pharmacy Information Management System</p>
+          <p class="p1"> <img src="images/home/tick.png" style="max-width:20px; margin-right: 3px;">Health Information Exchange Platform</p>
+          <p class="p1" ><img src="images/home/tick.png" style="max-width:20px; margin-right: 3px;">Clinical Decision Support System</p>
+          <p class="p1"><img src="images/home/tick.png" style="max-width:20px; margin-right: 3px;">Clinical Decision Support System</p>
+          <p class="p1"><img src="images/home/tick.png" style="max-width:20px; margin-right: 3px;">Practice Management System</p>
+          <p class="p1"><img src="images/home/tick.png" style="max-width:20px; margin-right: 3px;">Personal Health Recording Platform</p>
+          <p class="p1"><img src="images/home/tick.png" style="max-width:20px; margin-right: 3px;">Electronic Medical Health Recording Platform</p>
+          <p class="p1"><img src="images/home/tick.png" style="max-width:20px; margin-right: 3px;"> Queue Management System</p>
+          <p class="p1"><img src="images/home/tick.png" style="max-width:20px; margin-right: 3px;">Online Appointment Booking System</p>
+          <p class="p1"><img src="images/home/tick.png" style="max-width:20px; margin-right: 3px;">In Patient Monitoring & CommunicationSystem</p>
 <button class="demobtn">Get Demo</button>
         </div>
   </div></div>
   
-  <div class="col-md-3">
-    <div class="card" style="height: 900px;">
+  <div class="col-md-4">
+    <div class="card" >
       <div class="card-header paragraph-2">
-        <h4 style="color: black;"><i class="fa fa-newspaper-o" style="font-size:30px;margin-right: 5px;color: #F4801A;"></i>Integration Platforms</h4>
+        <h4 style="color: black;"><img src="images/home/osicon2.png" style="max-width:30px;margin-right: 10px;color: #F4801A;"></i>Integration Platforms</h4>
       </div>
     
         <div class="card-body paragraph-2">
-         <p class="p1"><i class="fa fa-check-circle-o" style="font-size:28px;color:green; margin-right: 3px;"></i>Api Gateway Platform Comnile</p> 
-<p class="p1"><i class="fa fa-check-circle-o" style="font-size:28px;color:green;margin-right: 3px;"></i>Payment Gateway Platform Pesanile</p>
-<p class="p1"><i class="fa fa-check-circle-o" style="font-size:28px;color:green;margin-right: 3px;"></i>Service Orchestration & Process Automation<br> Platform Servicenile</p>
-<p class="p1"><i class="fa fa-check-circle-o" style="font-size:28px;color:green;margin-right: 3px;"></i>Electronic Document Management System Docnile</p>
-<p class="p1"><i class="fa fa-check-circle-o" style="font-size:28px;color:green;margin-right: 3px;"></i>Revenue Management System Revenuenile</p>
-<p class="p1"><i class="fa fa-check-circle-o" style="font-size:28px;color:green;margin-right: 3px;"></i>Subscription Management with Payment Processing,<br> Billing, and Accounting System Bb Subscribe</p>
-<p class="p1"><i class="fa fa-check-circle-o" style="font-size:28px;color:green;margin-right: 3px;"></i>Supply Chain Management Platform - Stocknile</p>
-<p  class="p1"><i class="fa fa-check-circle-o" style="font-size:28px;color:green;margin-right: 3px;"></i>Quick Step Integration with Other Devices</p>
-<p class="p1"><i class="fa fa-check-circle-o" style="font-size:28px;color:green;margin-right: 3px;"></i>Mobile Banking Solution for Seamlessn Transaction<br> Integration Platforms</p>
-<button class="demobtn1" style="margin-top: 80px;">Get Demo</button>
+         <p class="p1"><img src="images/home/tick.png" style="max-width:20px; margin-right: 3px;">Api Gateway Platform Comnile</p> 
+<p class="p1"><img src="images/home/tick.png" style="max-width:20px; margin-right: 3px;">Payment Gateway Platform Pesanile</p>
+<p class="p1"><img src="images/home/tick.png" style="max-width:20px; margin-right: 3px;">Service Orchestration & Process Automation<br> Platform Servicenile</p>
+<p class="p1"><img src="images/home/tick.png" style="max-width:20px; margin-right: 3px;">Electronic Document Management System Docnile</p>
+<p class="p1"><img src="images/home/tick.png" style="max-width:20px; margin-right: 3px;">Revenue Management System Revenuenile</p>
+<p class="p1"><img src="images/home/tick.png" style="max-width:20px; margin-right: 3px;">Subscription Management with Payment Processing,<br> Billing, and Accounting System Bb Subscribe</p>
+<p class="p1"><img src="images/home/tick.png" style="max-width:20px; margin-right: 3px;">Supply Chain Management Platform - Stocknile</p>
+<p  class="p1"><img src="images/home/tick.png" style="max-width:20px; margin-right: 3px;">Quick Step Integration with Other Devices</p>
+<p class="p1"><img src="images/home/tick.png" style="max-width:20px; margin-right: 3px;">Mobile Banking Solution for Seamlessn Transaction<br> Integration Platforms</p>
+<button class="demobtn1" >Get Demo</button>
         </div>
      
   </div></div>
   
-  <div class="col-md-3">
-    <div class="card" style="height: 900px;" >
+  <div class="col-md-4">
+    <div class="card"  >
       <div class="card-header paragraph-2">
-        <h4 style="color: black;"><i class="fa fa-suitcase" style="font-size:30px;margin-right: 5px;color: #F4801A;"></i>Banking Systems</h4>
+        <h4 style="color: black;"><img src="images/home/osicon3.png" style="max-width:30px;margin-right: 10px;color: #F4801A;"></i>Banking Systems</h4>
       </div>
       <div class="card-body  paragraph-2 ">
-        <p class="p1"><i class="fa fa-check-circle-o" style="font-size:28px;color:green;margin-right: 3px;"></i>Hospital Information Management System</p>
-          <p class="p1"><i class="fa fa-check-circle-o" style="font-size:28px;color:green;margin-right: 3px;"></i> Paperless HIMS</p>
-           <p class="p1"><i class="fa fa-check-circle-o" style="font-size:28px;color:green; margin-right: 3px;"></i>Laboratory Information</p>
-           <p class="p1"><i class="fa fa-check-circle-o" style="font-size:28px;color:green;margin-right: 3px;"></i>Pharmacy Information Management System</p>
-           <p class="p1"> <i class="fa fa-check-circle-o" style="font-size:28px;color:green;margin-right: 3px;"></i>Health Information Exchange Platform</p>
-           <p class="p1" ><i class="fa fa-check-circle-o" style="font-size:28px;color:green;margin-right: 3px;"></i>Clinical Decision Support System</p>
-           <p class="p1"><i class="fa fa-check-circle-o" style="font-size:28px;color:green;margin-right: 3px;"></i>Clinical Decision Support System</p>
-           <p class="p1"><i class="fa fa-check-circle-o" style="font-size:28px;color:green;margin-right: 3px;"></i>Practice Management System</p>
-           <p class="p1"><i class="fa fa-check-circle-o" style="font-size:28px;color:green;margin-right: 3px;"></i>Personal Health Recording Platform</p>
-           <p class="p1"><i class="fa fa-check-circle-o" style="font-size:28px;color:green;margin-right: 3px;"></i>Electronic Medical Health Recording Platform</p>
-           <p class="p1"><i class="fa fa-check-circle-o" style="font-size:28px;color:green;margin-right: 3px;"></i> Queue Management System</p>
-           <p class="p1"><i class="fa fa-check-circle-o" style="font-size:28px;color:green;margin-right: 3px;"></i>Online Appointment Booking System</p>
-           <p class="p1"><i class="fa fa-check-circle-o" style="font-size:28px;color:green;margin-right: 3px;"></i>In Patient Monitoring & CommunicationSystem</p>
+        <p class="p1"><img src="images/home/tick.png" style="max-width:20px; margin-right: 3px;">Hospital Information Management System</p>
+          <p class="p1"><img src="images/home/tick.png" style="max-width:20px; margin-right: 3px;"> Paperless HIMS</p>
+           <p class="p1"><img src="images/home/tick.png" style="max-width:20px; margin-right: 3px;">Laboratory Information</p>
+           <p class="p1"><img src="images/home/tick.png" style="max-width:20px; margin-right: 3px;">Pharmacy Information Management System</p>
+           <p class="p1"> <img src="images/home/tick.png" style="max-width:20px; margin-right: 3px;">Health Information Exchange Platform</p>
+           <p class="p1" ><img src="images/home/tick.png" style="max-width:20px; margin-right: 3px;">Clinical Decision Support System</p>
+           <p class="p1"><img src="images/home/tick.png" style="max-width:20px; margin-right: 3px;">Clinical Decision Support System</p>
+           <p class="p1"><img src="images/home/tick.png" style="max-width:20px; margin-right: 3px;">Practice Management System</p>
+           <p class="p1"><img src="images/home/tick.png" style="max-width:20px; margin-right: 3px;">Personal Health Recording Platform</p>
+           <p class="p1"><img src="images/home/tick.png" style="max-width:20px; margin-right: 3px;">Electronic Medical Health Recording Platform</p>
+           <p class="p1"><img src="images/home/tick.png" style="max-width:20px; margin-right: 3px;"> Queue Management System</p>
+           <p class="p1"><img src="images/home/tick.png" style="max-width:20px; margin-right: 3px;">Online Appointment Booking System</p>
+           <p class="p1"><img src="images/home/tick.png" style="max-width:20px; margin-right: 3px;">In Patient Monitoring & CommunicationSystem</p>
            <button class="demobtn">Get Demo</button>
           </div>
           
@@ -565,6 +611,7 @@ font-size: 37px;
 
 </div>
 </div>
+
 
 
 
@@ -671,7 +718,7 @@ font-size: 37px;
         
         
         <div class="col-12">
-          <button style="background: linear-gradient(to right, #ED4B12,#F7951E);border: none; color: white; width:100%; padding:20px; border-radius: 5px;">Request A Quote</button>
+          <button style="background: linear-gradient(to right, #ED4B12,#F7951E);border: none; color: white; width:100%; padding:20px; border-radius: 5px;margin-top: 8px;">Request A Quote</button>
         </div>
       </form>
 </div>
@@ -686,12 +733,12 @@ font-size: 37px;
 <div class="col-md-12">
   <center>
 <div class="row" style="width: 100%; text-align: center;">
-  <div class="col-md-8" style=" padding-top: 75px;">
-    <h1 style="color: white; font-size: 60px;">Bharathbrands</h1>
-    <h4 style="color: white;">INNOVATION AHEAD</h4>
+  <div class="col-md-8" style=" padding-top: 95px;">
+   <img src="images/w-logo.png" width="50%">
   </div>
-  <div class="col-md-2">
-<button style="background-color: transparent;border: 2px solid white;color: white;border-radius: 5px;margin-top: 30px; margin-bottom: 30px; padding:10px 25px;">Contact us</button><br>
+  <div class="col-md-2" style="text-align: center;justify-content: center; ">
+    <a class="nav-link"    href="contact.html">
+<button style="background-color: transparent;border: 2px solid white;color: white;border-radius: 5px; margin-top: 40px; margin-bottom: 20px; padding:2px px;">Contact us</button><br></a>
 <button  style="background-color:white;border: 2px solid white;border-radius: 5px; padding:10px;">Request a quote</button>
   </div>
 </div>
@@ -774,7 +821,17 @@ font-size: 37px;
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
-
+      integrity="sha512-16esztaSRplJROstbIIdwX3N97V1+pZvV33ABoG1H2OyTttBxEGkTsoIVsiP1iaTtM8b3+hu2kB6pQ4Clr5yug=="
+      crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/fontfaceobserver/2.3.0/fontfaceobserver.standalone.js"
+      integrity="sha512-AtGkQVw5dVZR8URiScMJF/O46VB5I4JRo+wsLSwCKvtnlCwlWV/59excjg1+hFmuXuQhwYvoADflVbN4fMAKNg=="
+      crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+<!--Our software-->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js" integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s" crossorigin="anonymous"></script>
 
 
 <script>

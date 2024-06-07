@@ -1,0 +1,176 @@
+:root{
+    /*--Color--*/
+    --Primary-Text-color:#000;
+    --Secondary-text-color:#666976;
+--third-text-color:white;
+--btn-color:#F4801A;
+--bg-color:#fde1ce;
+    /*--text--*/
+    --Primary-text:Inter;
+
+}
+.body{
+    font-family: var(--Primary-text);
+
+}
+
+/*Nav-bar*/
+a.nav-link{
+    color: black !important;
+    font-size: 23px !important;
+    margin-right: 10px !important;
+     }
+   a.nav-link.active{
+      color: black !important;
+       }
+      a.nav-link:hover{
+       color: var(--btn-color)!important;
+      }
+      button.btn{
+        background: linear-gradient(to left,#F7951E, #ED4B12);
+        border-radius: 30px;
+        border: none;
+        padding:20px 30px;
+        color: white;
+        margin-top: 20px;
+        }
+    
+/* Get In Touch*/
+.background{
+    background-image: linear-gradient(to bottom, #fff9f3 50%, white 50%) !important;
+ 
+}
+.p{
+    font-size: 23px;
+    color: var(--Secondary-text-color);
+    margin:0 210px 70px 210px ;
+    justify-content: center;
+    text-align: center;
+     
+}
+  
+.background h1{
+    padding-bottom: 30px;
+    padding-top:70px;
+    justify-content: center;
+    text-align: center;
+     
+}
+.container1{
+     border: 2px solid #f2f2f2;
+     border-radius:20px !important; 
+     box-shadow: 0px 1px 6px 1px #D9F2F9 !important ;
+     background-color: white;
+}
+.card1{
+    background-color: #D36184 !important;
+    color: white !important;
+    margin: 30px;
+    border-radius: 20px !important;
+    
+    
+}
+.pre{
+    font-size: 21px;
+    padding:0 30px 10px 10px;
+}
+.form-control{
+    padding: 30px 30px 35px 10px !important;
+    font-size: 20px !important;
+    color: #000 !important;
+    background-color: #FDFDFD !important;
+    border:1px solid #D4D1FF !important;
+    margin-bottom: 40px !important;
+}
+.btn1{
+    background-color: #D36184;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 190px;
+    font-size: 21px;
+}
+.corner-image{
+    margin-left:295px ;
+     width: 150px;
+}
+
+/*cards*/
+.container{
+    margin-top: 70px !important;
+    margin-left: 50px !important;
+    border-radius: 20px !important;
+}
+.cardimg{
+   margin: 15px 0px 10px 30px;
+}
+.cardpre{
+    margin:8px 20px ;
+    font-size: 23px;
+  
+
+}
+.cards{
+    height: 530px;
+    border: #F2F2F2 !important;
+    background-color: #FFFFFF !important;
+    box-shadow: 0px 1px 6px 1px #D9F2F9 !important ;
+    border-radius: 20px !important;
+}
+
+/*--contact us--*/
+
+.section{
+   
+    margin-top: 30px;
+    float: left;
+    margin-left: 50px;
+    font-size: 21px;
+    color: #666976;
+    
+}
+.iconc{
+color: #000;
+}
+.icon{
+    margin:15px;
+   
+}
+.spre{
+    margin-top: 80px;
+    color: #000;
+    font-weight: 500;
+}
+.H5{
+    position: relative;
+    color: #000;
+     display: inline-block; 
+     padding-bottom: 10px; 
+     border-bottom: 2px solid #F4801A;
+}
+
+button.btnl{
+    background: linear-gradient(to right, #ED4B12,#F7951E);
+    border-radius: 10px;
+    border: none;
+    padding:15px 50px;
+    color: white;
+    margin-top: 20px;
+    font-size: 20px;
+    margin-left: 0px;
+    }
+
+@media (max-width: 768px) {
+    .p{
+    font-size: 23px;
+    color: var(--Secondary-text-color);
+    margin:0  70px  ;
+    justify-content: center;
+    text-align: center;
+     
+}
+.corner-image{
+    margin-left:240px ;
+     width: 150px;
+}
+}

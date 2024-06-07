@@ -16,6 +16,7 @@
 }
 .body{
     font-family: var(--Primary-text);
+
 }
 
 .background {
@@ -27,6 +28,8 @@
   /*Nav-bar*/
   a.nav-link{
     color: black !important;
+    font-size: 23px !important;
+    margin-right: 10px !important;
      }
    a.nav-link.active{
       color: black !important;
@@ -59,7 +62,7 @@ h1.h1{
     margin: 10px 5px 10px 20px;
 }
 button.btn{
-    background: linear-gradient(to right,#F7951E, #ED4B12);
+    background: linear-gradient(to left,#F7951E, #ED4B12);
     border-radius: 30px;
     border: none;
     padding:20px 30px;
@@ -125,8 +128,8 @@ button.btn{
     background-size: 100%;
 }
 .iconsec {
-    border: 2px solid transparent !important; 
-    background: linear-gradient(to left, #FCFFFF, #FFF9F3);
+    border: 2px solid transparent ; 
+    background: linear-gradient(to right, #FFF4E8, #FFFFFF);
     padding: 10px;
 }
 
@@ -139,8 +142,8 @@ button.btn{
     bottom: -2px;
     z-index: -1;
     border: 2px solid;
-    border-image: linear-gradient(to right, #f06925, #FFF9F3) 1; 
-    border-radius: 5px; 
+    border-image: linear-gradient(to right, #FFC385, #FFFFFF) 1; 
+  
 }
 
 /*--Why choose us--*/
@@ -163,9 +166,12 @@ button.btn{
     margin-left:20px ;
 }
 .read{
-    margin-left: 25px;
+    margin-left: 45px;
     text-decoration: none;
     margin-right: 2px;
+}
+.imghead{
+    margin-left: 20ox !important;
 }
 .div{
     color:grey;
@@ -228,6 +234,7 @@ button.btn{
     padding: 20px;
     height: 350px;
     margin-bottom: 20px;
+    border-radius: 30px !important;
 }
 
 .servicecard:hover{
@@ -263,6 +270,7 @@ button.btn{
 
 /* Style for the card content */
 .bcard {
+   
     font-size: 20px;
     color: var(--Secondary-text-color);
     transition: background-color 0.3s, color 0.3s; /* Add transition for smooth hover effect */
@@ -282,27 +290,25 @@ button.btn{
     margin-top: 50px;
 }
 .p1{
-    padding: 2px;
-    margin:5px;
+    
     color: var(--Secondary-text-color);
 }
 .demobtn{
-    background-color: var(--btn-color);
+    background: linear-gradient(to left,#F7951E, #ED4B12);
     color: var(--bg-color);
     padding: 10px 20px;
     border-radius: 5px;
     border: none
 }
 .demobtn1{
-    background-color: var(--btn-color);
+    background: linear-gradient(to left,#F7951E, #ED4B12);
     color: var(--bg-color);
     padding: 10px 20px;
     border-radius: 5px;
     border: none;
-    margin-top: 30px;
+    margin-top: 90px;
 
 }
-
 /*--Testimonial--*/
 .test{
     background-color: var(--third-text-color);
