@@ -304,8 +304,12 @@ button.btnl{
     margin-left: 0px;
     }        
 
+/*vyas*/
 
+.carousel-control-prev, .carousel-control-next {
+    width: 5%;
 
+}
 
 
 
