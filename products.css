@@ -99,6 +99,15 @@ a.nav-link{
 
 }
 
+.demobtn3{
+    background: linear-gradient(to left,#F7951E, #ED4B12);
+    color: var(--bg-color);
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    margin-top: 63px;
+
+}
 
 /*comnile*/
 .comnile{
@@ -169,7 +178,15 @@ a.nav-link{
     height: 350px;
 
 }
+.card-sec5{
+    margin: 20px;
+    border-radius: 20px !important;
+    background-color: white;
+    border: 1px solid #F2F2F2 !important;
+    box-shadow:  0px 1px 5px 1px  #D9F9F2 !important;
+    height: 400px;
 
+}
 .card-p{
     padding: 20px;
     font-size: 19px;
@@ -231,6 +248,24 @@ a.nav-link{
     border: 2px solid #d9dce3;
     box-shadow:0 2px 1px 1px  #c2c8dc ;
  }
+ .column-border {
+    border-right: 1px solid #d9dce3;
+    height: 200px;
+    padding-right: 15px; 
+}
+
+.column-border:last-child {
+    border-right: none;
+    padding-top:  2px !important;;
+    
+}
+.row-border{
+    border-bottom: 1px solid #d9dce3;
+   
+  
+}
+
+
 
  @media (max-width: 768px) {
 .api{
@@ -238,6 +273,26 @@ a.nav-link{
       margin-bottom: 100px;
       margin-left: 150px;
      
+}
+.bene-card{
+    height: 400px !important;
+}
+.card-sec4{
+    height: 400px !important;
+}
+.card-sec3{
+    height: 400px !important;
+}
+.card2{
+    height: 350px !important;
+}
+.background-color{
+    background-image: linear-gradient(to right,#F7951E, #ED4B12);
+    height: 600px;}
+
+.card-sec5{
+
+    height: 450px !important;
 }
  }
 
@@ -261,6 +316,16 @@ a.nav-link{
 
 
 
+ .content-paragraph strong {
+    color: black; /* Set the desired color */
+} 
+
+/*vyas*/
+
+.carousel-control-prev, .carousel-control-next {
+    width: 5%;
+
+}
 
 /*--contact us--*/
 
@@ -302,16 +367,7 @@ button.btnl{
     margin-top: 20px;
     font-size: 20px;
     margin-left: 0px;
-    }        
-
-/*vyas*/
-
-.carousel-control-prev, .carousel-control-next {
-    width: 5%;
-
-}
-
-
+    }       
 
 
 

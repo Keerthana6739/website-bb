@@ -96,14 +96,14 @@ button.btn{
     margin-top: 20px;
     margin-left: 20px;
     font-family: var(--Primary-text);
-    font-size: 32px;
+    font-size: 30px !important;
     font-weight: lighter;
 }
 .sec-head{
-    margin-top:20px ; 
-    margin-left: 10px;
+    margin-top:20px !important; 
+    margin-left: 10px !important;
     font-family: var(--Primary-text);
-    font-size: 37px;
+    font-size: 32px !important;
    
 }
 
@@ -117,7 +117,7 @@ button.btn{
 .pre1{
     margin-top: 20px;
     color: var(--Secondary-text-color);
-    font-size: 22px;
+    font-size: 22px !important;
     margin-bottom: 50px;
     margin-left: 20px;
 }
@@ -147,82 +147,88 @@ button.btn{
 }
 
 /*--Why choose us--*/
-.part3{
-    margin-top: 100px;
+.part3 {
+    padding: 50px 0;
 }
-.part3-1{
-    background-image: url(images/Why-choose-us\(Draw-Kits\).png);
-    background-repeat: no-repeat;
-    background-position: right top;
-    background-size: 20px;
+.part3-1 {
+    margin-bottom: 50px;
 }
-.row.icon{
-    margin-left: 15px;
-    margin-top: 20px;
-    padding: 20px;
+.part3 img {
+    max-width: 100%;
+    height: auto;
 }
-.card.icon{
-    border: 2px solid #F4801A;
-    margin-left:20px ;
+.paragraph-2 {
+    font-size: 18px;
 }
-.read{
-    margin-left: 45px;
-    text-decoration: none;
-    margin-right: 2px;
+.collase-m {
+    margin-bottom: 15px;
 }
-.imghead{
-    margin-left: 20ox !important;
+.read {
+    color: #007bff;
+    cursor: pointer;
+    padding-left: 50px;
 }
-.div{
-    color:grey;
-    padding-left: 25px;
+.read:hover {
+    text-decoration: underline;
 }
-
+.container {
+    padding-left: 0;
+    padding-right: 0;
+}
+.container .row > div {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+@media (max-width: 767.98px) {
+    .part3 img {
+        height: auto;
+    }
+    .container .row {
+        margin-right: 0;
+        margin-left: 0;
+    }
+    .container .row > div {
+        padding-left: 0px;
+        padding-right: 5px;
+    }
+    .part3-1 h3, .part3-1 h1 {
+        margin-left: 0px;
+    }
+    .col-md-8 {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+    .col-md-4 {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+    .paragraph-2 {
+        font-size: 16px;
+    }
+    .read {
+        color: #007bff;
+        cursor: pointer;
+        padding-left: 1px;
+    }
+    .collase-m{
+        margin-left: 1px !important;
+    }
+}
 /*--Our software--*/
-.part4{
-    background-color: rgb(228, 247, 250);
-
+.part4 {
+    padding: 50px 0;
 }
-.custom-container {
-    max-width: 800px;
-    margin: auto;
+.part4 h4, .part4 h1 {
+    margin-left: 20px;
 }
-
-.carousel-item .card {
-    margin-bottom: 20px; 
+.card-text {
+    margin: 20px;
+    height: 150px;
 }
-
-
- .carousel-control-prev,
-    .carousel-control-next {
-      width: auto;
-      height: auto;
-      
-    }
-
-    .carousel-control-prev-icon,
-    .carousel-control-next-icon {
-      background-color: rgba(0, 0, 0, 0.5); 
-      border-radius: 50%;
-      width: 50px;
-      height: 50px;
-    }
-
-    .carousel-control-prev {
-      position: absolute;
-      bottom: 10px;
-      left: 15px;
-    }
-
-    .carousel-control-next {
-      position: absolute;
-      bottom: 10px;
-      right: 15px;
-    }
-
-    .carousel-item {
-      position: relative;
-    }
+.card-img-top img {
+    width: 100%;
+    height: auto;
+}
 /*Marquee*/
 
 .marquee img {
@@ -256,7 +262,6 @@ button.btn{
     color:white ;
 }
 /*--Bharathbrands--*/
-/* Center the carousel items */
 .carousel-inner .carousel-item {
     display: flex;
     justify-content: center;
@@ -270,7 +275,7 @@ button.btn{
 
 /* Style for the card content */
 .bcard {
-   
+    height: 600px !important;
     font-size: 20px;
     color: var(--Secondary-text-color);
     transition: background-color 0.3s, color 0.3s; /* Add transition for smooth hover effect */
@@ -281,7 +286,6 @@ button.btn{
     background-color: #F4801A;
     color: white;
 }
-
 
 /*--software solutions--*/
 .center{
@@ -306,7 +310,17 @@ button.btn{
     padding: 10px 20px;
     border-radius: 5px;
     border: none;
-    margin-top: 90px;
+    margin-top: 55px;
+
+}
+
+.demobtn3{
+    background: linear-gradient(to left,#F7951E, #ED4B12);
+    color: var(--bg-color);
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    margin-top: 63px;
 
 }
 /*--Testimonial--*/
@@ -386,4 +400,19 @@ button.btnl{
     margin-top: 20px;
     font-size: 20px;
     margin-left: 0px;
+    }
+
+    @media (max-width: 768px) {
+        .servicecard{
+            margin: 30px 0px 10px 40px;
+            padding: 20px;
+            height:400px !important;
+            margin-bottom: 20px;
+            border-radius: 30px !important;
+        }
+        
+         .card-c{
+            height: 650px !important;
+         }
+         
     }
