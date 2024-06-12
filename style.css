@@ -44,7 +44,7 @@
     background-image: url(images/background.png);
     background-repeat: no-repeat;
     background-position: right top;
-    background-size: 120px;
+    background-size: 140px;
   
    
 }
@@ -220,6 +220,7 @@ button.btn{
 /*--Our software--*/
 .part4 {
     padding: 50px 0;
+    background-color: #f9fafd;;
 }
 .part4 h4, .part4 h1 {
     margin-left: 20px;
@@ -261,16 +262,9 @@ button.btn{
 
 
 /*--Bharathbrands--*/
-.carousel-inner .carousel-item {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
 
-/* Adjust the width of carousel control buttons */
-.carousel-control-prev, .carousel-control-next {
-    width: 5%;
-}
+
+
 
 /* Style for the card content */
 .bcard {
