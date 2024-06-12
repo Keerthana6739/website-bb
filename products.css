@@ -369,5 +369,11 @@ button.btnl{
     margin-left: 0px;
     }       
 
+.dec{
+    background-image: url(images/Ellipse\ 15.png);
+ background-repeat: no-repeat !important; 
+ background-size: 10px  !important; 
+ background-position: 150px top !important;
 
+}
 

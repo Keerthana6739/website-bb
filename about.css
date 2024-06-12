@@ -36,24 +36,34 @@ a.nav-link{
         }
     
 /*about*/
-.about1{
+.about1 {
     height: 700px;
     background-image: url('images/about/backimg.png')!important; 
     background-repeat: no-repeat !important; 
     background-size: cover !important; 
-   
-}
-.about1 h1{
+    background-position: center !important;
     color: white;
-    font-size: 40px;
-
+    display: flex;
+    align-items: center;
 }
-.about1 p{
-    color: white;
-    font-size: 30px;
-    padding-left: 50px;
-
+.about1 .content {
+    padding: 50px;
+    background: rgba(0, 0, 0, 0.5); /* Optional: adds a dark overlay for better text readability */
+    border-radius: 8px;
 }
+@media (max-width: 767.98px) {
+    .about1 {
+        height: auto;
+        padding: 50px 0;
+    }
+    .about1 .content {
+        padding: 20px;
+    }
+    .about1 p {
+        font-size: 24px;
+    }
+}
+
 
 /*welcome*/
 .values{
@@ -64,7 +74,7 @@ a.nav-link{
 
 /*cards*/
 .card1 h5{
-    padding: 20px;
+    padding: 30px;
 }
 .card2 h5{
     padding: 20px;
@@ -72,12 +82,12 @@ a.nav-link{
 .card1 p{
     color: gray;
     font-size: 17px;
-    padding: 10px;
+    padding: 0 30px 30px 30px;
 }
 .card2 p{
     color: gray;
     font-size: 17px;
-    padding: 10px;
+    padding:  0 30px 30px 30px;
     
    
 }
@@ -86,7 +96,7 @@ a.nav-link{
     border: 1px solid #FFD4A8 !important;
     border-radius: 15px !important;
     margin: 0 20px;
-    height: 320px;
+    height: 350px;
     width: 80%;
 }
 
@@ -95,10 +105,18 @@ a.nav-link{
     border: 1px solid #A6DBE2 !important;
     border-radius: 15px !important;
     margin: 0 20px;
-    height: 320px;
+    height: 350px;
     width: 80%;
 }
 
+.iconsec{
+     background-color: #FFFBF7;
+     margin: 50px 0px; 
+     border: 1px solid #FFC385 !important; 
+     padding: 10px; 
+     margin-bottom: 70px;
+     border-radius: 20px !important;
+}
 /*Marquee*/
 
 .marquee img {
@@ -121,7 +139,7 @@ a.nav-link{
 color: #000;
 }
 .icon{
-    margin:15px;
+    margin:8px;
    
 }
 .spre{
@@ -212,4 +230,34 @@ button.btnl{
         
 
     }
+.subpart{
+ background-image: url(images/Ellipse\ 15.png);
+ background-repeat: no-repeat !important; 
+ background-size: 10px  !important; 
+ background-position: top !important;
+}
+.subparth2{
+    background-image: url(images/Vector.png);
+ background-repeat: no-repeat !important; 
+ background-size: 15px  !important; 
+ background-position: right !important;
+}
+.dec{
+    background-image: url(images/Polygon\ 2.png);
+    background-repeat: no-repeat !important; 
+    background-size: 15px  !important; 
+    background-position:top center  !important;
+}
 
+.dec1{
+    background-image: url(images/Polygon\ 2.png);
+    background-repeat: no-repeat !important; 
+    background-size: 15px  !important; 
+    background-position: center  !important;
+}
+.dec3{
+    background-image: url(images/Polygon\ 3.png);
+    background-repeat: no-repeat !important; 
+    background-size: 15px  !important; 
+    background-position:  center  !important;
+}

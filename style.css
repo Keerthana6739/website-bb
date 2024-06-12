@@ -128,9 +128,10 @@ button.btn{
     background-size: 100%;
 }
 .iconsec {
-    border: 2px solid transparent ; 
+    
     background: linear-gradient(to right, #FFF4E8, #FFFFFF);
     padding: 10px;
+    border-radius: 10px !important;
 }
 
 .iconsec::before {
@@ -142,6 +143,7 @@ button.btn{
     bottom: -2px;
     z-index: -1;
     border: 2px solid;
+    border-radius: 10px !important; 
     border-image: linear-gradient(to right, #FFC385, #FFFFFF) 1; 
   
 }
@@ -162,6 +164,7 @@ button.btn{
 }
 .collase-m {
     margin-bottom: 15px;
+    font-size: 21px !important;
 }
 .read {
     color: #007bff;
@@ -249,18 +252,14 @@ button.btn{
 
 .servicecard:hover{
     background-color: #F4801A;
-    color: white;
+    color: white !important;
+    .servicepre:hover{
+        color:white ;
+    }
   
 }
-.servicepre:hover{
-    transform: scale(1.0);
-}
-.servicepre{
-    color:grey ;
-}
-.servicepre:hover{
-    color:white ;
-}
+
+
 /*--Bharathbrands--*/
 .carousel-inner .carousel-item {
     display: flex;
@@ -345,7 +344,14 @@ button.btn{
     
 }
 
-
+@media (max-width: 768px) {
+    .test{
+        background-color: var(--third-text-color);
+        color: #666976;
+        padding-left: 20px !important; 
+        padding-top: 30px;
+        
+    }}
 /*--Request quote--*/
 .ip{
 float: left;
@@ -414,5 +420,16 @@ button.btnl{
          .card-c{
             height: 650px !important;
          }
-         
+         h1.h1{
+            font-size: 38px;
+            font-weight: bold;
+            font-family: var(--Primary-text);
+            margin: 10px 5px 10px 10px;
+         }
+         .fw-light{
+            margin: 10px 5px 10px 10px !important; 
+         }
+         .pre{
+            margin: 10px 5px 10px 10px !important; 
+         }
     }

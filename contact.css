@@ -173,4 +173,15 @@ button.btnl{
     margin-left:240px ;
      width: 150px;
 }
+.btn1{
+    padding: 10px 90px;
+    font-size: 18px;
+    margin: 10px;
+
+}
+.corner-image{
+    margin-left:130px ;
+     width: 150px;
+}
+
 }
